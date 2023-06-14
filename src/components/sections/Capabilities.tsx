@@ -6,8 +6,6 @@ import tw from "twin.macro"
 import Title from "../Title";
 import ButtonPrimary from "../ButtonPrimary";
 
-import images from "../../constants/images";
-
 const Capabilities = () => {
   const theme = useSelector((state: RootState) => state.theme);
   const isLight = theme === 'light';
