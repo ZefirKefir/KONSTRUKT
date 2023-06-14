@@ -15,7 +15,7 @@ const Title = ({ children, centered = false }: TitleProps) => {
   })
   return (
     <div className="" ref={ref}>
-      <Text className={`${centered ? 'text-center' : ''} ${theme === 'light' ? 'text-black' : 'text-primary'} ${inView ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'}`}>{children}</Text>
+      <Text className={`${centered ? 'text-center' : ''} ${theme === 'light' ? 'text-gray-800' : 'text-primary'} ${inView ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'}`}>{children}</Text>
       <Line className={`${centered ? 'mx-auto' : ''} ${theme === 'light' ? 'bg-primary' : 'bg-white'} ${inView ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'}`} />
     </div>
   )

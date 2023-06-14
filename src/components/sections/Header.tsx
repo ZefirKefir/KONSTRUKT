@@ -17,7 +17,7 @@ const Header = () => {
   })
 
   return (
-    <Section ref={ref}>
+    <Section className='header' ref={ref}>
       <Logo classNames={`${inView ? 'translate-y-0 opacity-100' : '-translate-y-10 opacity-0'} self-start ml-5 xs:self-center xs:ml-0`} />
       <Switch className={inView ? 'translate-y-0 opacity-100 delay-[.8s]' : '-translate-y-8 opacity-0'}>
         <BsFillMoonStarsFill size={30}
@@ -54,7 +54,7 @@ const Section = tw.header`
   relative
   w-full h-[100vh]
   snap-center
-  bg-main bg-cover bg-center
+  bg-cover bg-center
 `;
 const HeaderTitle = tw.h1`
   font-['Bebas Neue']

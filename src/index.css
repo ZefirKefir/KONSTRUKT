@@ -9,3 +9,11 @@ body {
 .root {
   scroll-snap-type: y mandatory;
 }
+
+.header {
+  background-image: url('../src/assets/bg.jpg');
+}
+
+.get-in-touch {
+  background-image: url('../src/assets/bg2.png');
+}
