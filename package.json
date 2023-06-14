@@ -1,8 +1,8 @@
 {
+  "homepage": "https://zefirkefir.github.io/konstrukt",
   "name": "konstrukt",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://zefirkefir.github.io/konstrukt/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
