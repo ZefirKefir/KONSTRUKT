@@ -22,9 +22,9 @@ export default {
         primary: '#00A4E5',
       },
       backgroundImage: {
-        touch: "url('/src/assets/touch-bg.png')",
-        touch2: "url('/src/assets/bg2.png')",
-        main: "url('/src/assets/bg.jpg')",
+        touch: "url('./src/assets/touch-bg.png')",
+        touch2: "url('./src/assets/bg2.png')",
+        main: "url('./src/assets/bg.jpg')",
       },
       screens: {
         xs: '360px',
